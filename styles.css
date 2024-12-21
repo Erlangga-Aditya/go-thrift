@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+}
+
+/* Navbar Logo */
+.logo-img {
+    height: 40px; /* Sesuaikan tinggi logo */
+    width: auto;  /* Menjaga proporsi */
+    object-fit: contain; /* Menjaga gambar tetap proporsional */
+}
+
+.centered-text {
+    text-align: justify; /* Untuk rata kanan-kiri */
+    margin: 0 auto; /* Untuk membuat teks di tengah */
+    max-width: 600px; /* Batas lebar teks */
+    line-height: 1.6; /* Untuk jarak antar baris */
+}
+
+.section {
+    padding: 5rem 0; /* Padding untuk section, kecuali yang diubah */
+}
+
+#home {
+    padding: 0; /* Menghapus padding di section home */
+    margin-top: 0; /* Menghilangkan jarak margin di atas */
+}
+
+.carousel {
+    margin-top: 0; /* Menghapus jarak margin default pada carousel */
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+/* Gaya awal untuk navbar */
+.navbar {
+    transition: all 0.3s ease; /* Animasi yang halus */
+    background-color: rgba(0, 0, 0, 0.6); /* Transparansi lebih tinggi */
+}
+
+/* Ketika halaman di-scroll */
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.3); /* Lebih transparan */
+    backdrop-filter: blur(5px); /* Efek blur tetap ada */
+}
+
